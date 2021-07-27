@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #31354c;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg,#9fbaa8,#31354c) ;
+    transition: 0.4s ;
+}
+
+
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.form-container h1{
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.form-control{
+    display: block;
+    box-sizing: border-box;
+    width: 240px;
+    background: #ffffff28;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.btn{
+    width: 240px;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #31354c;
+}
+
+.hide-login{
+    color: #000;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    opacity: .7;
+}
+
+.show-login{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    color:white;
+    border:2px solid;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.showed{
+    left: 0;
+}
+
